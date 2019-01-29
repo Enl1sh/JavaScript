@@ -1,4 +1,4 @@
 document.getElementById ('name').innerHTML;
-('name') +  ;
+('name') + window.appdata;
 document.getElementById ('screen').innerHTML;
-('screen') + screen.width ;
+('screen') + screen.width
