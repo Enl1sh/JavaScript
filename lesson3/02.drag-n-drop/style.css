@@ -1,0 +1,12 @@
+#js-drop-to {
+	padding: 20px;
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+}
+
+#js-draggable {
+	width: 100px;
+	height: 100px;
+	background-color: bisque;
+}
