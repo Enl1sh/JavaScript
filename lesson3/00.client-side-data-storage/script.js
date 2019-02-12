@@ -25,7 +25,9 @@ console.log('myUser', myUser);
 const parsedUser = Json.parse(myUser);
 console.log('parsedUser', parsedUser);
 
+/*
 const emails = ['a@ynov.com', 'b@ynov.com' 'c@ynov.com']
+*/
 
 DocCookies.setItem('emails', JSON.stringify(emails))
 const emailsFromCookies = docCookies.getItem('emails')
@@ -34,7 +36,7 @@ const parsedEmails = JSON.parse(emailsFromCookies)
 
 const isAccepted = docCookies.getItem('CookiesAccepted')
 console.log('isAccepted', isAccepted);
-if (isAccepted && is Accepted === 'true') {
+if (isAccepted && isAccepted === 'true') {
 	cookiesBanner.style.display = 'none';
 	
 } else {
@@ -48,7 +50,7 @@ CookiesBtn.addEventListener ('Click', () => {
 	cookiesBanner.style.display ='none';
 })
 
-const ads = {top : 1, bottom: 2};
+/*const ads = {top : 1, bottom: 2};
 
 if (localStorage) {
 	localStorage.setItem('greeting', 'Hello World');
@@ -58,4 +60,4 @@ if (localStorage) {
 if (sessionStorage) {
 	sessionStorage.setItem('greeting', 'Hello World');
 	sessionStorage.setItem('adIds' JSON.stringify(ads));
-}
+}*/
